@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1942074646078680}
+  m_IsPrefabParent: 1
+--- !u!1 &1942074646078680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4690671326772298}
+  - component: {fileID: 114754778322753192}
+  - component: {fileID: 114046086102507850}
+  m_Layer: 0
+  m_Name: TileProTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4690671326772298
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1942074646078680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.10168029, y: 0.49820718, z: 0.45123577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114046086102507850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1942074646078680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4aeb1fe48c382447aa9a6e339388f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prop: {fileID: 1408465657371280, guid: f628c4989356f314dbd8437da8f53456, type: 2}
+  targetBone: {fileID: 0}
+  positionOffset: {x: 0, y: -0.51, z: 0}
+  rotationOffset: {x: 0, y: 180, z: 180}
+  scaleOffset: {x: 0.0994, y: 5.947, z: 0.1009}
+  destroyTrigger: 1
+--- !u!114 &114754778322753192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1942074646078680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4aeb1fe48c382447aa9a6e339388f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prop: {fileID: 1408465657371280, guid: 613f22875b10a9b478d71dd061a754a1, type: 2}
+  targetBone: {fileID: 0}
+  positionOffset: {x: 0, y: 0.51, z: 0}
+  rotationOffset: {x: 0, y: 180, z: 0}
+  scaleOffset: {x: 0.0994, y: 5.947, z: 0.1009}
+  destroyTrigger: 1
