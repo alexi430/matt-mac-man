@@ -17,6 +17,7 @@ obj/
 *.pidb
 *.suo
 /*.sln
+/*.log
 *.user
 *.unityproj
 *.booproj
