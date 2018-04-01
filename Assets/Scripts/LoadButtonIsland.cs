@@ -20,6 +20,7 @@ public class LoadButtonIsland : MonoBehaviour {
         {
             print("aitest: load button island " + island);
             Button aButton = Instantiate(buttonIslandPrefab, Vector3.zero, Quaternion.identity) as Button;
+            aButton.gameObject.name = island;
             aButton.onClick.AddListener(() => { switchScene(island); });
             aButton.transform.SetParent(gameObject.transform, false);
             StartCoroutine(setButtonSprite(island, aButton));

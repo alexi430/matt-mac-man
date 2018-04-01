@@ -42,7 +42,7 @@ public class Level : MonoBehaviour {
         }
     }
 
-    void OnMouseOver()
+    public void OnMouseOver()
     {
         mouseOver = true;
         meshRenderer.material.color = Color.cyan;
