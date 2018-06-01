@@ -4,5 +4,5 @@ SET UNITY="C:\Program Files\Unity2017\Editor\Unity.exe"
 SET PROJECT="%WS%"
 SET RESULT="%WS%result.xml" 
 ECHO %UNITY% -batchmode -runTests -projectPath %PROJECT% -testResults %RESULT% -testPlatform editmode
-ECHO %UNITY% -batchmode -runTests xyz b1 -projectPath %PROJECT% -testResults %RESULT% -testPlatform editmode
+ECHO %UNITY% -batchmode -runTests xyz m -projectPath %PROJECT% -testResults %RESULT% -testPlatform editmode
 %UNITY% -batchmode -runTests -projectPath %PROJECT% -testResults %RESULT% -testPlatform editmode
